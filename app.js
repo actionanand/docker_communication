@@ -67,10 +67,10 @@ app.get('/people', async (req, res) => {
   }
 });
 
-// Connecting to MongoDB (running inside docker)
+// * Connecting to MongoDB (running inside docker)
 
 mongoose.connect(
-  'mongodb://localhost:27017/swfavorites',
+  'mongodb://myMongoDb:27017/swfavorites',
   { useNewUrlParser: true },
   (err) => {
     if (err) {
@@ -82,9 +82,12 @@ mongoose.connect(
 );
 
 /*
-  Connecting to MongoDB (running at host machine locally).
+  * Connecting to MongoDB (running at host machine locally).
   For this, You need to have the mongoDB set up locally in your machine.
-  For more detail on installation, https://www.mongodb.com/docs/manual/installation/
+  ? For more detail on installation, https://www.mongodb.com/docs/manual/installation/
+
+  ^ 'mongodb://host.docker.internal:27017/swfavorites' is equal to 'mongodb://localhost:27017/swfavorites'
+  ^ 'http://host.docker.internal:3001/' is equal to ''http://localhost:3001/'
 */
 
 // mongoose.connect(
