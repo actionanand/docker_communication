@@ -1,0 +1,14 @@
+# node modules to ignore
+node_modules/
+# logs
+logs/
+# git  metadata ignore
+.git
+# .git in all subfolders example
+**/.git
+npm-debug.log
+yarn-debug.log
+README.md
+.vscode
+.gitignore
+DS_Store
