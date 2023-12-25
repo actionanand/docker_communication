@@ -197,6 +197,9 @@ docker run -d -p 3000:80 --rm --name docker_communication --network mongo-net ac
         ```
         And make sure to keep the `type` as either `movie` or `character`. If you use anything apart from this, error will be thrown from backend
     4. `GET` request for `http://localhost:3000/favorites`
+  
+       ![image](https://github.com/actionanand/docker_communication/assets/46064269/3e52283a-efa2-4328-912b-35c0ac57d730)
+
 
 ### Bonus
 
