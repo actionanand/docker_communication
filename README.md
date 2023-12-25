@@ -119,6 +119,10 @@ docker run -d --rm --name mongoCommunication mongo:7.0
 ```shell
 docker container inspect mongoCommunication
 ```
+or
+```bash
+docker inspect mongoCommunication
+```
 
   * Look for the `IPAddress` property under the object `NetworkSettings`
   * Just consider, `172.17.0.3` is the IP, then
