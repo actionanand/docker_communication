@@ -214,7 +214,7 @@ Accessing DB running inside docker from host machine (our local computer with lo
 ```bash
 docker run -d --rm -p 20243:27017 -v mongo-local-vol:/data/db --name mongoDbLocal mongo:7.0
 ```
-2. Connect to the following URl using [Studio 3T](https://studio3t.com/best-mongodb-gui/) or [MongoDB Compass](https://www.mongodb.com/products/tools/compass)
+2. Connect to the following URl using [MongoDB Compass](https://www.mongodb.com/products/tools/compass), [Studio 3T](https://studio3t.com/best-mongodb-gui/) or [NoSQL manager free - for multi connection](https://www.mongodbmanager.com/download-free)
 
 ```js
 mongodb://localhost:20243
