@@ -213,6 +213,10 @@ docker run -d --rm -p 20243:27017 -v mongo-local-vol:/data/db --name mongoDbLoca
 mongodb://localhost:20243
 ```
 
+## Docker Image's public URL
+
+* [actionanand/docker_communication](https://hub.docker.com/r/actionanand/docker_communication)
+
 ## Associated repos:
 
 1. [Docker Basics](https://github.com/actionanand/docker_playground)
