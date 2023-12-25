@@ -80,6 +80,10 @@ Now, you can simply **use the Container names** to let them communicate with eac
 fetch('cont1/my-data').then(...)
 ```
 
+![image](https://github.com/actionanand/docker_communication/assets/46064269/527aede7-2dd2-4bf8-9b48-48972c4983b0)
+
+
+
 ## Commands used in this project
 
 Here are the commands used in this project
