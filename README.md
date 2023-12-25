@@ -82,7 +82,7 @@ fetch('cont1/my-data').then(...)
 
 ![image](https://github.com/actionanand/docker_communication/assets/46064269/527aede7-2dd2-4bf8-9b48-48972c4983b0)
 
-
+![image](https://github.com/actionanand/docker_communication/assets/46064269/25d6b7db-bc81-40b6-916c-7f2225079254)
 
 ## Commands used in this project
 
